@@ -37,7 +37,7 @@ post_message = requests.post(r, json = data)
 
 
 # TODO: print the status code
-print("Status Code: " post_response.status_code)
+print("Status Code: ", post_response.status_code)
 
       
 # TODO: print the result
