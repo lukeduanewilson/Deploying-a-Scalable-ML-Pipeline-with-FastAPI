@@ -13,14 +13,14 @@ from ml.model import (
     train_model,
 )
 # TODO: load the cencus.csv data
-project_path = "./"
+project_path = os.getcwd()
 data_path = os.path.join(project_path, "data", "census.csv")
 print(data_path)
 data = pd.read_csv(data_path)
 
 # TODO: split the provided data to have a train dataset and a test dataset
 
-train, test = train_test_split(data, test_size=0.2, random_state=42)
+train, test = train_test_split(data, test_size=0.3, random_state=42)
 
 # DO NOT MODIFY
 cat_features = [
@@ -36,10 +36,11 @@ cat_features = [
 
 # TODO: use the process_data function provided to process the data.
 X_train, y_train, encoder, lb = process_data(
-    data = train,
-    categorical_features = cat_features,
+    train,
+    cat_features,
+    label = "salary",
     training=True,
-    label = "salary"
+    
     )
 
 X_test, y_test, _, _ = process_data(
@@ -80,7 +81,7 @@ for col in cat_features:
         p, r, fb = performance_on_categorical_slice(
             test,
             col,
-            slice_value,
+            slicevalue,
             cat_features,
             'salary',
             encoder,
