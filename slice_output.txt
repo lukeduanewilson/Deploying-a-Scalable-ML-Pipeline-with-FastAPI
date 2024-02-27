@@ -864,3 +864,101 @@ native-country: Vietnam, Count: 13
 Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
 native-country: Yugoslavia, Count: 4
 Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+workclass: ?, Count: 569
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+workclass: Federal-gov, Count: 291
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+workclass: Local-gov, Count: 648
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+workclass: Private, Count: 6,814
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+workclass: Self-emp-inc, Count: 319
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+workclass: Self-emp-not-inc, Count: 745
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+workclass: State-gov, Count: 379
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+workclass: Without-pay, Count: 4
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+education: 10th, Count: 284
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+education: 11th, Count: 344
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+education: 12th, Count: 140
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+education: 1st-4th, Count: 40
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+education: 5th-6th, Count: 103
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+education: 7th-8th, Count: 203
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+education: 9th, Count: 160
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+education: Assoc-acdm, Count: 316
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+education: Assoc-voc, Count: 408
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+education: Bachelors, Count: 1,583
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+education: Doctorate, Count: 117
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+education: HS-grad, Count: 3,182
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+education: Masters, Count: 509
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+education: Preschool, Count: 15
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+education: Prof-school, Count: 169
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+education: Some-college, Count: 2,196
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+marital-status: Divorced, Count: 1,353
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+marital-status: Married-AF-spouse, Count: 5
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+marital-status: Married-civ-spouse, Count: 4,452
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+marital-status: Married-spouse-absent, Count: 140
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+marital-status: Never-married, Count: 3,192
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+marital-status: Separated, Count: 317
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+marital-status: Widowed, Count: 310
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+occupation: ?, Count: 569
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+occupation: Adm-clerical, Count: 1,118
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+occupation: Armed-Forces, Count: 3
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+occupation: Craft-repair, Count: 1,211
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+occupation: Exec-managerial, Count: 1,209
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+occupation: Farming-fishing, Count: 294
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+occupation: Handlers-cleaners, Count: 409
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+occupation: Machine-op-inspct, Count: 567
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+occupation: Other-service, Count: 1,016
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+occupation: Priv-house-serv, Count: 41
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+occupation: Prof-specialty, Count: 1,246
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+occupation: Protective-serv, Count: 223
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+occupation: Sales, Count: 1,069
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+occupation: Tech-support, Count: 280
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+occupation: Transport-moving, Count: 514
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+relationship: Husband, Count: 3,907
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+relationship: Not-in-family, Count: 2,550
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
+relationship: Other-relative, Count: 272
+Precision: 0.9884 | Recall: 0.1469 | F1: 0.2558
